@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1EA660D-885A-4E89-85A8-102B2556F01C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PhoneGameService</RootNamespace>
+    <AssemblyName>PhoneGameService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <HintPath>packages\NUnit.2.6.3\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\AudioIdentifier.cs" />
+    <Compile Include="Models\EdgeConditionals\CheckNumberOfPlayers.cs" />
+    <Compile Include="Models\EdgeConditionals\CheckPhraseChosen.cs" />
+    <Compile Include="Models\EdgeConditionals\CheckError.cs" />
+    <Compile Include="Models\EdgeConditionals\NoCondition.cs" />
+    <Compile Include="Models\GameAudio.cs" />
+    <Compile Include="Models\GamePhrase.cs" />
+    <Compile Include="Models\GameScore.cs" />
+    <Compile Include="Models\GameStates\TestNode.cs" />
+    <Compile Include="Models\GameStates\EndGame.cs" />
+    <Compile Include="Models\GameStates\NotifyPlayer.cs" />
+    <Compile Include="Models\GameStates\PlayerListenAnswer.cs" />
+    <Compile Include="Models\GameStates\PlayerListenSpeakAnswer.cs" />
+    <Compile Include="Models\GameStates\PlayerSpeakPhrase.cs" />
+    <Compile Include="Models\GameStates\PlayerReady.cs" />
+    <Compile Include="Models\GameStates\PickPhrase.cs" />
+    <Compile Include="Models\GameStates\PickPlayer.cs" />
+    <Compile Include="Models\EdgeConditionals\EdgeConditional.cs" />
+    <Compile Include="Models\GameStates\GameStateNode.cs" />
+    <Compile Include="Models\GameStates\NotStarted.cs" />
+    <Compile Include="Models\GameTypes\TestingGameType.cs" />
+    <Compile Include="Models\GameTypes\GameTypeFactory.cs" />
+    <Compile Include="Models\GameTypes\TwoPlayersOriginal.cs" />
+    <Compile Include="Repositories\TelephoneGameRepository.cs" />
+    <Compile Include="Services\GameService.cs" />
+    <Compile Include="Models\Game.cs" />
+    <Compile Include="Models\GameTypes\GameType.cs" />
+    <Compile Include="Models\PhoneNumber.cs" />
+    <Compile Include="Models\Player.cs" />
+    <Compile Include="Models\PlayerCreationRequest.cs" />
+    <Compile Include="Models\PlayerCreationValidation.cs" />
+    <Compile Include="Models\TotalPlayerScore.cs" />
+    <Compile Include="Tests\PickPhraseTests.cs" />
+    <Compile Include="Tests\EdgeConditionalsTests.cs" />
+    <Compile Include="Tests\OriginalGameStartTests.cs" />
+    <Compile Include="Tests\NewOriginalGameTests.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests\FindPlayerTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

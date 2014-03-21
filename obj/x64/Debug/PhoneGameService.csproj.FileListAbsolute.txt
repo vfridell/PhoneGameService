@@ -1,0 +1,12 @@
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\PhoneGameService.dll
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\PhoneGameService.pdb
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\nunit.framework.dll
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\nunit.framework.xml
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\obj\x64\Debug\PhoneGameService.dll
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\obj\x64\Debug\PhoneGameService.pdb
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\PhoneGameService.dll
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\PhoneGameService.pdb
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\nunit.framework.dll
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\nunit.framework.xml
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\obj\x64\Debug\PhoneGameService.dll
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\obj\x64\Debug\PhoneGameService.pdb

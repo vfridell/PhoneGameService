@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\PhoneGameService.dll" total="4" errors="0" failures="4" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2014-03-21" time="10:11:35">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.5477" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="IT-VFRIDELL" user="vfridell" user-domain="BELLARMINE" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\PhoneGameService.dll" executed="True" result="Failure" success="False" time="0.571" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="PhoneGameService" executed="True" result="Failure" success="False" time="0.551" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Failure" success="False" time="0.550" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="PickPhraseTests" executed="True" result="Error" success="False" time="0.545" asserts="1">
+                <failure>
+                  <message><![CDATA[SetUp : System.InvalidOperationException : Sequence contains no matching element]]></message>
+                  <stack-trace><![CDATA[at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+at PhoneGameService.Tests.PickPhraseTests.SetupTests() in C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\Tests\PickPhraseTests.cs:line 29
+]]></stack-trace>
+                </failure>
+                <results>
+                  <test-case name="PhoneGameService.Tests.PickPhraseTests.Game_AddPlayer" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[TestFixtureSetUp failed in PickPhraseTests]]></message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case name="PhoneGameService.Tests.PickPhraseTests.Game_CantAddMorePlayers" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[TestFixtureSetUp failed in PickPhraseTests]]></message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case name="PhoneGameService.Tests.PickPhraseTests.Game_Created" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[TestFixtureSetUp failed in PickPhraseTests]]></message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                  <test-case name="PhoneGameService.Tests.PickPhraseTests.Game_PlayerOneTurn" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[TestFixtureSetUp failed in PickPhraseTests]]></message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

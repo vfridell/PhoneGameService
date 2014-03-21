@@ -1,0 +1,10 @@
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\bin\Debug\TestGamePlay.exe.config
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\bin\Debug\TestGamePlay.exe
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\bin\Debug\TestGamePlay.pdb
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\bin\Debug\PhoneGameService.dll
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\bin\Debug\nunit.framework.dll
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\bin\Debug\PhoneGameService.pdb
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\bin\Debug\nunit.framework.xml
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\obj\x86\Debug\TestGamePlay.csprojResolveAssemblyReference.cache
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\obj\x86\Debug\TestGamePlay.exe
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\TestGamePlay\obj\x86\Debug\TestGamePlay.pdb

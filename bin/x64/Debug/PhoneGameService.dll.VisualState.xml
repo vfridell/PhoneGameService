@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1022]C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\PhoneGameService.dll</TopNode>
+  <SelectedNode>[0-1004]PhoneGameService.Tests.EdgeConditionalsTests.CheckNumberOfPlayers_Failure</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1022]C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\x64\Debug\PhoneGameService.dll" Expanded="true" />
+    <Node UniqueName="[0-1023]PhoneGameService" Expanded="true" />
+    <Node UniqueName="[0-1024]PhoneGameService.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]PhoneGameService.Tests.EdgeConditionalsTests" Expanded="true" />
+    <Node UniqueName="[0-1009]PhoneGameService.Tests.FindPlayerTests" Expanded="true" />
+    <Node UniqueName="[0-1012]PhoneGameService.Tests.NewOriginalGameTests" Expanded="true" />
+    <Node UniqueName="[0-1007]PhoneGameService.Tests.OriginalGameStartTests" Expanded="true" />
+    <Node UniqueName="[0-1017]PhoneGameService.Tests.PickPhraseTests" Expanded="true" />
+  </Nodes>
+</VisualState>

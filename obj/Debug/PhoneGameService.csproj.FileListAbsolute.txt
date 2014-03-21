@@ -1,0 +1,13 @@
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\bin\Debug\PhoneGameService.dll
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\bin\Debug\PhoneGameService.pdb
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\bin\Debug\nunit.framework.dll
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\bin\Debug\nunit.framework.xml
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\obj\Debug\PhoneGameService.dll
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\obj\Debug\PhoneGameService.pdb
+C:\Users\gusknows\Documents\Projects\Telephone Game\PhoneGameService\obj\Debug\PhoneGameService.csprojResolveAssemblyReference.cache
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\Debug\PhoneGameService.dll
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\Debug\PhoneGameService.pdb
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\Debug\nunit.framework.dll
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\bin\Debug\nunit.framework.xml
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\obj\Debug\PhoneGameService.dll
+C:\WorkRoot\Projects\Telephone Game\PhoneGameService\obj\Debug\PhoneGameService.pdb
